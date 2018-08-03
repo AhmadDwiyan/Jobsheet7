@@ -32,11 +32,32 @@ public class SaranBahanResep {
            
         }else
             System.out.println("Mohon Maaf Pilihan Tidak Ditemukan"+"Tidak dapat memberikan Saran Resep");
-         
+         int bahan2 =masukan.nextInt();
+         if (bahan1 >=1 && bahan2 <= 3)
+         {
+             if(bahan1==1)
+                 switch(bahan2)
+                 {
+                     case 1 : System.out.println("ANDA DAPAT MEMBUAT MILKSHAKE BANANA"); break;
+                     case 2 : System.out.println("Anda Dapat Membuat Pisang Goreng"); break ;
+                     case 3 : System.out.println("Anda Dapat Membuat Pisang Rebus"); 
+                 }
+             else 
+                 switch(bahan2)
+                 {
+                     case 1:System.out.println("Anda Dapat Membuat Telur Mata Sapi");break;
+               case 2:System.out.println("Anda Dapat Membuat Sandwich Telur");break;
+               case 3 :System.out.println("Anda Dapat Membuat telur Rebus ");break;
+               }
+              
+         } else
+             System.out.println("Mohon Maaf Tidak Dapat Pilihan Tidak Dapat Ditemukan"+"Tidak Dapat memberikan Saran Resep");
+                 }
+         }
+                 
         
             
         }
         
-}
-}
-}
+
+
