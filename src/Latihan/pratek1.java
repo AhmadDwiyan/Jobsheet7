@@ -22,11 +22,36 @@ public class pratek1 {
            if(apa==5)System.out.println("NILAI A SAMA DENGAN 5");
            System.out.println("\nIF.........3");
                    if(apa>5)System.out.println("NILAI A LEBIH DARI 5");
-                   int nilai;
-                   System.out.println("\nNilai Anda?");
-                   nilai = scan.nextInt();
+    
+                   System.out.println("\nIF...ELSE...1");
+                   if(apa<5) {
+                       System.out.println("Isi Variebel A "+apa);
+                       System.out.println("NILAI A KURANG DARI 5");
+                   }else 
+                       System.out.println("NILAI A LEBIH DARI ATAU SAMA DENGAN 5");
+                   System.out.println("Bilangan "+apa);
                    
-                   String kelas = (nilai <75) ? "Belum Kompeten" : "KOMPETEN";
-                   System.out.println(nilai +"=> "+kelas);
-}
-}
+       if(apa<5) {
+                 System.out.println("NILAI A KURANG DARI 5");
+       }else if(apa==5) {
+           System.out.println("NILAI A SAMA DENGAN 5");
+       } else
+        System.out.println("NILAI A LEBIH DARI 5");
+       {
+   System.out.println("\nIF..ELSE..IF..1");
+   if (apa<2){
+       System.out.println("NILAI KURANG DARI 2");
+   } else if(apa<4) {
+        System.out.println("NILAI KURANG DARI 4");
+        } else if(apa<6) {
+        System.out.println("NILAI KURANG DARI 6");
+        } else if(apa==6) {
+        System.out.println("NILAI SAMA DENGAN 6");
+        } else {
+             System.out.println("NILAI LEBIH DARI 6");
+            
+   }
+           
+}    
+    }
+    }
