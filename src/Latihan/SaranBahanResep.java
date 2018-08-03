@@ -20,10 +20,23 @@ public class SaranBahanResep {
          System.out.println("BAHAN 2 :Telur");
          System.out.print("MASUKAN PILIHANMU");
          int bahan1 = masukan.nextInt();
+         if(bahan1 == 1 || bahan1 == 2)
+         {
+        System.out.println("BAHAN KEDUA:");
+        if(bahan1 == 1) {
+            System.out.println("1. Susu");
+             System.out.println(" 2.Minyak Gorng");
+         System.out.println("3.Tidak Ada");
+         System.out.println("Masukan Pilihan Mu");
+         int bahan2 = masukan.nextInt();
+           
+        }else
+            System.out.println("Mohon Maaf Pilihan Tidak Ditemukan"+"Tidak dapat memberikan Saran Resep");
          
-         
         
+            
+        }
         
-        
+}
 }
 }
