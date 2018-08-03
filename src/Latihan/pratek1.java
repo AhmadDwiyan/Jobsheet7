@@ -49,7 +49,19 @@ public class pratek1 {
         System.out.println("NILAI SAMA DENGAN 6");
         } else {
              System.out.println("NILAI LEBIH DARI 6");
+             
             
+   }
+   System.out.println("\nNested IF..");
+   if (apa<7) {
+       System.out.println("NILAI A KURANG DARI 7");
+         if (apa>2) 
+       System.out.println("NILAI A LEBIH DARI 2");
+         if (apa<4) 
+       System.out.println("NILAI A Kurang Dari 4");
+       
+   
+       
    }
            
 }    
